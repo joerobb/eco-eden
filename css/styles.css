@@ -7745,6 +7745,7 @@ textarea.form-control-lg {
 .px-4 {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
+  text-align: center;
 }
 
 .px-5 {
@@ -8762,6 +8763,11 @@ textarea.form-control-lg {
   .ps-sm-5 {
     padding-left: 3rem !important;
   }
+
+  .px-4 {
+    text-align: left;
+  }
+
   .gap-sm-0 {
     gap: 0 !important;
   }
