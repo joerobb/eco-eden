@@ -10842,12 +10842,18 @@ body:before {
 
 img.bg-image {
   position: fixed;
-    left: 50%;
+    left: 0%;
     min-width: 50%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: 0;
+}
+
+@media (min-width: 900px) {
+  img.bg-image {
+      left: 50%;
+  }
 }
 
 @media (pointer: coarse) and (hover: none) {
