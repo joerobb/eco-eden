@@ -1501,7 +1501,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav a, .header-nav a:visited {
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 0 20px 0 0;
 }
 
 .header-nav a:hover,
