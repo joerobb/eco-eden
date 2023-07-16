@@ -1447,7 +1447,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 0;
+    left: -20px;
     top: 80%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1466,7 +1466,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 .header-logo a img{
-  width: 150px;
+  width: 200px;
   height: auto;
   max-width: none;
 }
@@ -1727,7 +1727,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         height: 90px;
     }
     .header-logo {
-        left: -5px;
+        left: -25px;
+        top: 80px;
+    }
+    .header-logo a img {
+        width: 185px;
     }
     .header-menu-toggle {
         right: 25px;
