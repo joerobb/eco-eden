@@ -1764,7 +1764,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 @media only screen and (max-width: 500px) {
     .s-home {
-        background-size: contain !important;
+        /* background-size: contain !important; */
         background-position: bottom !important;
 }
 }
