@@ -1471,6 +1471,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   max-width: none;
 }
 
+/* Facebook Container */
+
+.facebook-container {
+    text-align: center;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## main navigation 
