@@ -3266,6 +3266,7 @@ h1.facts-line {
 
 .contact-primary {
     width: 65%;
+    display: none;
 }
 
 .contact-primary #contactForm {
@@ -3278,7 +3279,7 @@ h1.facts-line {
 
 .contact-secondary::before {
     content: "";
-    display: block;
+    display: none;
     width: 35%;
     position: absolute;
     top: 0;
